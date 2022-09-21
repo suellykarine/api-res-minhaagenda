@@ -11,3 +11,16 @@ export interface IUpdateClient {
   email: string;
   telephone: number;
 }
+
+export interface IContact {
+  name: string;
+  email: string;
+  telephone: number;
+}
+
+export interface IUpdateContact {
+  id: string;
+  name: string;
+  email: string;
+  telephone: number;
+}
