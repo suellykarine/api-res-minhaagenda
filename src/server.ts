@@ -6,7 +6,9 @@ async function init() {
 
   await AppDataSource.initialize(); // Linha modificada
 
-  app.listen(PORT, () => console.log("Running at http://localhost:" + PORT));
+  app.listen(process.env.PORT || 3000);
+
+  //app.listen(PORT, () => console.log("Running at http://localhost:" + PORT));
 }
 
 init();
