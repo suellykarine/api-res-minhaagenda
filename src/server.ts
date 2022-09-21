@@ -1,3 +1,4 @@
+import "dotenv/config";
 import app from "./app";
 import { AppDataSource } from "./data-source"; // Linha modificada
 
@@ -6,9 +7,9 @@ async function init() {
 
   await AppDataSource.initialize(); // Linha modificada
 
-  app.listen(process.env.PORT || 3000);
+  //app.listen(process.env.PORT || 3000);
 
-  //app.listen(PORT, () => console.log("Running at http://localhost:" + PORT));
+  app.listen(PORT, () => console.log("Running at http://localhost:" + PORT));
 }
 
 init();
