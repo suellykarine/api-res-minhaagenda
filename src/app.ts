@@ -7,9 +7,9 @@ import { appRoutes } from "./routes/index";
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 appRoutes(app);
 
 app.use(errorMiddleware);
-app.use(cors());
 
 export default app;
