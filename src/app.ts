@@ -1,3 +1,4 @@
+import cors from "cors";
 import express from "express";
 import "reflect-metadata";
 import { errorMiddleware } from "./middlewares/error.middleware";
@@ -9,5 +10,6 @@ app.use(express.json());
 appRoutes(app);
 
 app.use(errorMiddleware);
+app.use(cors());
 
 export default app;

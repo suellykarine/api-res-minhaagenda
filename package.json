@@ -6,6 +6,7 @@
     "author": "suellykarine <95307379+suellykarine@users.noreply.github.com>",
     "license": "MIT",
     "dependencies": {
+        "cors": "^2.8.5",
         "dotenv": "^16.0.2",
         "express": "^4.18.1",
         "pg": "^8.8.0",
@@ -16,6 +17,7 @@
         "uuid": "^9.0.0"
     },
     "devDependencies": {
+        "@types/cors": "^2.8.12",
         "@types/express": "^4.17.14",
         "@types/node": "^18.7.18",
         "@types/uuid": "^8.3.4",
