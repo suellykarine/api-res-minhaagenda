@@ -1,4 +1,3 @@
-// src/data-source.ts
 import "reflect-metadata";
 import { DataSource } from "typeorm";
 require("dotenv").config();
@@ -22,10 +21,3 @@ export const AppDataSource = new DataSource({
       ? ["dist/migrations/*.js"]
       : ["src/migrations/*.ts"],
 });
-// AppDataSource.initialize()
-//   .then(() => {
-//     console.log("Data Source initialized");
-//   })
-//   .catch((err) => {
-//     console.error("Error during Data Source initialization", err);
-//   });

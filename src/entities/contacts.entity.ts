@@ -16,5 +16,5 @@ export class Contact {
   email: string;
 
   @Column({ unique: true })
-  telephone: number;
+  telephone: string;
 }

@@ -7,7 +7,8 @@ import updateContactService from "../services/contacts/updateContact.service";
 
 export const createContactController = async (req: Request, res: Response) => {
   const { name, email, telephone } = req.body;
-  const newContact = await CreateContactService({ name, email, telephone });
+  const { id } = req.params;
+  const newContact = await CreateContactService({ name, email, telephone, id });
   return res.status(201).json(newContact);
 };
 

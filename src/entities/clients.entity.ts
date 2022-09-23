@@ -21,7 +21,7 @@ export class Client {
   email: string;
 
   @Column({ unique: true })
-  telephone: number;
+  telephone: string;
 
   @CreateDateColumn()
   created_at: Date;
