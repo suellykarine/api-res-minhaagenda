@@ -1,14 +1,32 @@
-# Projeto-fullstack-teste-tecnico
+<h1 align="center">API Minha Agenda</h1>
 
-### Simulação de um teste técnico com uma aplicação fullstack, feito em nodejs e reactjs
+- Simula uma agenda virtual, onde o usuário se cadastra e também cadastra e deleta seus contatos. Projeto em NodeJs.
 
-## API minha agenda
+## Tecnologias e ferramentas :wrench:
 
-- Uma api que simula o cadastro de uma agenda, onde o cliente pode se cadastrar e cadastrar seus contatos.
+- Nodejs
+- Express
+- Typeorm
+- Typescript
+- Uuid
+- Postgres
 
-## BASE URL
+## Como utilizar:
 
-> https://teste-tecnico-kenzie.herokuapp.com/
+### BASE URL:
+
+https://github.com/suellykarine/projeto-minhaagenda-frontend
+
+- Clone o repositório
+- Rode a aplicação em localhost
+
+### BASE API:
+
+https://github.com/suellykarine/api-res-minhaagenda
+
+- Clone o repositório da api
+- Rode a aplicação em localhost
+- Projeto em Nodejs
 
 ## Notes:
 
