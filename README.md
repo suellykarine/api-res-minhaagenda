@@ -1,6 +1,6 @@
 <h1 align="center">API Minha Agenda</h1>
 
-- Simula uma agenda virtual, onde o usuário se cadastra e também cadastra e deleta seus contatos. Projeto em NodeJs.
+- Simula uma agenda virtual, onde o usuário se cadastra como também cadastra e deleta seus contatos. Projeto em NodeJs.
 
 ## Tecnologias e ferramentas :wrench:
 
